@@ -1,0 +1,18 @@
+special_tokens:
+    "PAD": 0
+    "START": 2
+    "END": 1
+    "UNK": 3
+    "SEP": 4
+    "(": 10
+    ")": 11
+    "e": 13
+    "p": 14
+    "i": 15
+    "u": 16
+    "n": 17
+offset: 100
+ans_len: 32
+qry_len: 128
+act_len: 32
+act_max_var: 16

@@ -1,0 +1,24 @@
+default:
+  nepoch: 400
+  lr: 1e-5
+  warm_up: 100
+T5_disablepos_3-01:
+  nepoch: 500
+  lr: 5e-3
+  warm_up: 5
+T5_disablepos_3_act_v2-01:
+  nepoch: 500
+  lr: 1e-4
+  warm_up: 5
+T5_disablepos_3_act_nt:
+  nepoch: 500
+  lr: 1e-4
+  warm_up: 5
+T5_disablepos_3_nt:
+  nepoch: 500
+  lr: 1e-4
+  warm_up: 5
+GPT2_6_act_nt:
+  nepoch: 400
+  lr: 1e-5
+  warm_up: 100

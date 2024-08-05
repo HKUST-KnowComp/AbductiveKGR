@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=1 python -m akgr.abduction_model.main \
+    --modelname='T5_disablepos_3_act_nt'\
+    --data_root='./sampled_data/' -d='WN18RR' --scale='full' -a=32  \
+    --checkpoint_root='/home/data/ywangmy/checkpoint/' -r=80\
+    --result_root='./results/'\
+    --save_frequency 5\
+    --test_proportion=1\
+    --test_split='test'\
+    --overwrite_batchsize=2048\
+    --mode='testing'\
+    --test_top_k=0\
+    --test_count0\

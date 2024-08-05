@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 python -m akgr.abduction_model.main \
+    --modelname='GPT2_6_act_nt'\
+    --data_root='./sampled_data/' -d='WN18RR' --scale='full' -a=32  \
+    --checkpoint_root='/home/data/ywangmy/checkpoint/' -r=40\
+    --result_root='./results/'\
+    --save_frequency 5\
+    --test_proportion=1\
+    --test_count0\
+    --overwrite_batchsize=512\
+    --mode='testing'\
+    --test_top_k=0\

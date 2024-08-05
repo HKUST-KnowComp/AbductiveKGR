@@ -1,0 +1,86 @@
+"pattern_table_file": "akgr/metadata/pattern_table.csv"
+debug:
+  datasets: ["FB15k-237", "WN18RR", "DBpedia50"]
+  scale: 5000
+  "FB15k-237":
+    "train": 16
+    "valid": 2
+    "test": 2
+  "YAGO310":
+    "train": 16
+    "valid": 2
+    "test": 2
+  "DBpedia50":
+    "train": 16
+    "valid": 2
+    "test": 2
+full:
+  datasets: ["FB15k-237", "WN18RR", "DBpedia50"]
+  scale: 1
+"model":
+  "FB15k-237":
+    "train": 1024
+    "valid": 128
+    "test": 128
+  "YAGO310":
+    "train": 1024
+    "valid": 128
+    "test": 128
+  "DBpedia50":
+    "train": 1024
+    "valid": 128
+    "test": 128
+"server":
+  "FB15k-237":
+    "train": 8000
+    "valid": 1000
+    "test": 1000
+  "YAGO310":
+    "train": 8000
+    "valid": 1000
+    "test": 1000
+  "DBpedia50":
+    "train": 8000
+    "valid": 1000
+    "test": 1000
+"wn18rr only":
+  "WN18RR":
+    "train": 8000
+    "valid": 1000
+    "test": 1000
+"server additional":
+  "PharmKG8k":
+    "train": 8000
+    "valid": 1000
+    "test": 1000
+  "OGBWikiKG2":
+    "train": 8000
+    "valid": 1000
+    "test": 1000
+"extra-debug":
+  "BioKG":
+    "train": 16
+    "valid": 2
+    "test": 2
+  "FB15k-237":
+    "train": 16
+    "valid": 2
+    "test": 2
+  "PharmKG8k":
+    "train": 16
+    "valid": 2
+    "test": 2
+"extra":
+  # "FB15k-237":
+  #   "train": 14505
+  #   "valid": 1450
+  #   "test": 1450
+  "BioKG":
+    "train": 105524
+    "valid": 10552
+    "test": 10552
+  "PharmKG8k":
+    "train": 7247
+    "valid": 724
+    "test": 7247
+

@@ -1,0 +1,12 @@
+T5_disablepos_3:
+  num_layers: 3
+T5_disablepos_3-01:
+  num_layers: 3
+GPT2_6:
+  num_layers: 6
+GPT2_6_act_nt:
+  num_layers: 6
+T5_disablepos_3_act_v2-01:
+  num_layers: 3
+T5_disablepos_3_act_nt:
+  num_layers: 3

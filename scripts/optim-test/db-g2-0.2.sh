@@ -1,0 +1,17 @@
+CUDA_VISIBLE_DEVICES=0 python -m akgr.abduction_model.main \
+    --modelname='GPT2_6_act_nt'\
+    --data_root='./sampled_data/' -d DBpedia50 --scale='full' -a=32  \
+    --checkpoint_root='checkpoints/' -r=40\
+    --result_root='./results/'\
+    --save_frequency 20\
+    --mode='testing'\
+    --ppo_resume_epoch='final'\
+    --test_top_k=0\
+    --overwrite_batchsize=8192\
+    --ppo_lr=0.6e-5\
+    --ppo_smatch_factor=0.2\
+    --ppo_init_kl_coef=0.2\
+    --ppo_cliprange=0.2\
+    --ppo_proportion=1\
+    --ppo_minibatch=128\
+    --ppo_horizon=2048\

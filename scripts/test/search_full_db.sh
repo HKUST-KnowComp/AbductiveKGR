@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICE=3 python -m akgr.rule_based_model.search -d='DBpedia50' --scale='full' --heuristics='brute_force_1p'

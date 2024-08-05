@@ -1,0 +1,42 @@
+searching:
+  FB15k-237: 1024
+  DBpedia50: 1024
+  WN18RR: 1024
+T5:
+  FB15k-237: 96
+  DBpedia50: 64
+  YAGO310: 20
+T5_disable_pos:
+  FB15k-237: 96
+  DBpedia50: 80
+  YAGO310: 20
+T5_disablepos_3:
+  FB15k-237: 224
+  DBpedia50: 64
+  WN18RR: 64
+T5_disablepos_3-01:
+  FB15k-237: 224
+  DBpedia50: 192
+  WN18RR: 192
+T5_disablepos_3_nt:
+  FB15k-237: 224
+  DBpedia50: 64
+  WN18RR: 64
+T5_disablepos_3_act_nt:
+  FB15k-237: 224
+  DBpedia50: 64
+  WN18RR: 64
+T5_disablepos_3_act_v2-01:
+  FB15k-237: 768
+  DBpedia50: 640
+  WN18RR: 256
+GPT2_6_act_nt:
+  FB15k-237: 256
+  DBpedia50: 160
+  WN18RR: 160
+greedy_1p:
+  FB15k-237: 96
+  DBpedia50: 64
+  YAGO310: 20
+  PharmKG8k: 20
+  WN18RR: 64

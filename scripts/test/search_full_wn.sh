@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICE=2 python -m akgr.rule_based_model.search -d='WN18RR' --scale='full' --heuristics='brute_force_1p'
