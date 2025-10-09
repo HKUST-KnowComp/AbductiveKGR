@@ -91,9 +91,9 @@ See [Example Data and Checkpoints](#example-data-and-checkpoints)
 
 # Example Data and Checkpoints
 
-Sampled data: Download [Onedrive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/ywangmy_connect_ust_hk/EtvmEUWl-dxBgfYckjLqIsUBLjjs2_WvZB2IWNLDmwAnyw?e=2t4RoH) to `sampled_data` under the root.
+Sampled data: Download [Onedrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/jbai_connect_ust_hk/Edqs8TOQ0sxFibKe3gvrHTsB-pwqz5-UUbrzLoy_IQRc3Q?e=UIVNFM) to `sampled_data` under the root.
 
-Checkpoints: Download [Onedrive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/ywangmy_connect_ust_hk/EpSiNlWJ_uROuYZZS2mhy1wB2l5A8RKgyAnuL-hnbenyRQ?e=LdXbyA) to `checkpoints` under the root.
+Checkpoints: Download [Onedrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/jbai_connect_ust_hk/EZWM-ZVGV5FHnfC8Md4IaigBxTkxZ8G6ZgT5sLkOUjyTSw?e=RKxkr2) to `checkpoints` under the root.
 
 
 # Citation
